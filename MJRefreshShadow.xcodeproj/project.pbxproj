@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D41D411DAC7F5A0090DCBD /* MJRefreshShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D41D401DAC7F5A0090DCBD /* MJRefreshShadow.m */; };
+		18D41D421DAC7F5A0090DCBD /* MJRefreshShadow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18D41D3F1DAC7F5A0090DCBD /* MJRefreshShadow.h */; };
+		18D41D491DAC7FDA0090DCBD /* MJRefreshShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D41D3F1DAC7F5A0090DCBD /* MJRefreshShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D41D511DAC897D0090DCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D41D501DAC897D0090DCBD /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18D41D3A1DAC7F5A0090DCBD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				18D41D421DAC7F5A0090DCBD /* MJRefreshShadow.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18D41D3C1DAC7F5A0090DCBD /* libMJRefreshShadow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefreshShadow.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D41D3F1DAC7F5A0090DCBD /* MJRefreshShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJRefreshShadow.h; sourceTree = "<group>"; };
+		18D41D401DAC7F5A0090DCBD /* MJRefreshShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJRefreshShadow.m; sourceTree = "<group>"; };
+		18D41D501DAC897D0090DCBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D41D591DACC1740090DCBD /* MJRefreshShadow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefreshShadow.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D41D391DAC7F5A0090DCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D41D511DAC897D0090DCBD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D41D331DAC7F5A0090DCBD = {
+			isa = PBXGroup;
+			children = (
+				18D41D3E1DAC7F5A0090DCBD /* MJRefreshShadow */,
+				18D41D3D1DAC7F5A0090DCBD /* Products */,
+				18D41D4F1DAC897D0090DCBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D41D3D1DAC7F5A0090DCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D41D3C1DAC7F5A0090DCBD /* libMJRefreshShadow.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D41D3E1DAC7F5A0090DCBD /* MJRefreshShadow */ = {
+			isa = PBXGroup;
+			children = (
+				18D41D591DACC1740090DCBD /* MJRefreshShadow.bundle */,
+				18D41D3F1DAC7F5A0090DCBD /* MJRefreshShadow.h */,
+				18D41D401DAC7F5A0090DCBD /* MJRefreshShadow.m */,
+			);
+			path = MJRefreshShadow;
+			sourceTree = "<group>";
+		};
+		18D41D4F1DAC897D0090DCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D41D501DAC897D0090DCBD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18D41D481DAC7FC80090DCBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D41D491DAC7FDA0090DCBD /* MJRefreshShadow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18D41D3B1DAC7F5A0090DCBD /* MJRefreshShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D41D451DAC7F5A0090DCBD /* Build configuration list for PBXNativeTarget "MJRefreshShadow" */;
+			buildPhases = (
+				18D41D381DAC7F5A0090DCBD /* Sources */,
+				18D41D391DAC7F5A0090DCBD /* Frameworks */,
+				18D41D3A1DAC7F5A0090DCBD /* CopyFiles */,
+				18D41D481DAC7FC80090DCBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefreshShadow;
+			productName = MJRefreshShadow;
+			productReference = 18D41D3C1DAC7F5A0090DCBD /* libMJRefreshShadow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D41D341DAC7F5A0090DCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Liancheng;
+				TargetAttributes = {
+					18D41D3B1DAC7F5A0090DCBD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 74ACG5P4VE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D41D371DAC7F5A0090DCBD /* Build configuration list for PBXProject "MJRefreshShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D41D331DAC7F5A0090DCBD;
+			productRefGroup = 18D41D3D1DAC7F5A0090DCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D41D3B1DAC7F5A0090DCBD /* MJRefreshShadow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D41D381DAC7F5A0090DCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D41D411DAC7F5A0090DCBD /* MJRefreshShadow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18D41D431DAC7F5A0090DCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D41D441DAC7F5A0090DCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D41D461DAC7F5A0090DCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+					armv7,
+					arm64,
+				);
+				DEVELOPMENT_TEAM = 74ACG5P4VE;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7s armv7 i386 x86_64";
+			};
+			name = Debug;
+		};
+		18D41D471DAC7F5A0090DCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+					armv7,
+					arm64,
+				);
+				DEVELOPMENT_TEAM = 74ACG5P4VE;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7s armv7 i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D41D371DAC7F5A0090DCBD /* Build configuration list for PBXProject "MJRefreshShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D41D431DAC7F5A0090DCBD /* Debug */,
+				18D41D441DAC7F5A0090DCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D41D451DAC7F5A0090DCBD /* Build configuration list for PBXNativeTarget "MJRefreshShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D41D461DAC7F5A0090DCBD /* Debug */,
+				18D41D471DAC7F5A0090DCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D41D341DAC7F5A0090DCBD /* Project object */;
+}
